@@ -1,0 +1,67 @@
+body {
+    padding-top: 56px;
+}
+
+h1 {
+    text-shadow: 3px 5px 10px #000;
+}
+
+.category {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: large;
+}
+
+.cart {
+    font-size: 36px;
+    color: white;
+}
+
+.prodtitle {
+    text-shadow: 3px 5px 10px red;
+    color: red;
+}
+
+.shopname {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: springgreen;
+}
+
+.checkout {
+    text-shadow: 3px 5px 10px #000;
+    margin-left: 40%;
+    font-size: 50px;
+}
+
+.checkbtn {
+    margin-left: 46%;
+}
+
+.rowspad {
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .checkout {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .checkout {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .checbtn {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .checkbtn {
+        margin-left: 40%
+    }
+}
